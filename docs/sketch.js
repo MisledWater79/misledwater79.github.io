@@ -97,7 +97,7 @@ let cells;
 let cols,rows;
 let size = 20;
 let flagMode = false;
-let cSize = 200;
+let cSize = 400;
 let bombs = 2;
 let cellsFlagged = 0;
 let cellsShown = 0;
@@ -109,6 +109,10 @@ function setup() {
   rows = height/size;
   numCells = cols*rows;
   cells = make2DArray(cols,rows);
+  document.querySelector("canvas").display = "none";
+}
+
+function makeGame(){
   for(let x = 0; x < cols; x++){
     for(let y = 0; y < rows; y++){
       cells[x][y] = new Cell(x,y,size);
