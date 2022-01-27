@@ -1,4 +1,4 @@
 # Minesweeper
 Minesweeper for my peeps at school
 
-https://misledwater79.github.io/Minesweeper/
+https://misledwater79.github.io/misledwater079.github.io/
